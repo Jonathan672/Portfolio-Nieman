@@ -1,0 +1,169 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.button{
+    margin-top: 30px;
+    margin-left: auto;
+}
+
+.btn{
+    border: 1px solid white;
+     padding: 10px 30px;
+     color: white;
+     text-decoration: none;
+     margin-right: 5px;
+     font-size: 13px;
+     text-transform: uppercase;
+}
+
+.btn-one{
+    background-color: darkorange;
+    font-family: "roboto", sans-serif;
+}
+
+.btn-two{
+    font-family: "roboto", sans-serif;
+}
+
+.btn-two:hover{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li{
+    display: inline;
+}
+
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.nav-area li.active a{
+    border: 1px solid white;
+}
+
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+/*Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button_1{
+    height: 38px;
+    background-color: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ /* Showcase */
+ #showcase{
+     min-height: 400px;
+     background:linear-gradient(rgba(65, 62, 62, 0.267), rgba(51, 50, 50, 0.034)), url('Computer-Systems.jpg') no-repeat;
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+     color: #ffffff;
+     background-attachment: fixed;
+ }
+
+ #showcase h1{
+     margin-top: 100px;
+     font-size: 55px;
+     margin-bottom: 10px;
+ }
+
+ #showcase p{
+     font-size: 20px;
+ }
+
+ #newsletter{
+     padding: 15px;
+     color: #ffffff;
+     background: #35424a;
+ }
+
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+/* sidebar*/
+#sidebar{
+    justify-content: center;
+    width: 30%;
+    margin-top: 10px;
+    align-items: center;
+}
+
+/*main-col*/
+#main-col{
+    float: left;
+    width: 65%;
+}
+
+/*services */
+#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-top: 5px;
+    background: #e6e6e6;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
